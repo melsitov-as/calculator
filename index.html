@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Калькулятор</h1>
+  </header>
+  <main class="main">
+    <section class="input-data">
+      <p>
+        <label class='input-data__label' id="start-sum-label" for="start-sum">Стартовая сумма:</label>
+        <input class="input-data__input input-data__input--start-sum" type="number" id="start-sum-input"
+          name="start-sum">
+      </p>
+      <p>
+        <label class='input-data__label' id="grow-percent-label" for="grow-percent">Процент:</label>
+        <input class="input-data__input input-data__input-grow-percent" type="number" id="grow-percent-input"
+          name="grow-percent">
+      </p>
+      <p>
+        <label class='input-data__label' id="plus-sum-label" for="plus-sum">Сумма, которую ежемесячно
+          вносишь:</label>
+        <input class="input-data__input input-data__input--plus-sum" type="number" id="plus-sum-input" name="plus-sum">
+      </p>
+      <p>
+        <label class='input-data__label' id="month-number-label" for="month-number">Количество месяцев:</label>
+        <input class="input-data__input input-data__input--month-number" type="number" id="month-number-input"
+          name="month-number">
+      </p>
+      <p>
+        <label class='input-data__label' id="tax-amount-label" for="tax-amount">Сумма налога (в процентах):</label>
+        <input class="input-data__input input-data__input--tax-amount" type="number" id="tax-amount-input"
+          name="tax-amount">
+      </p>
+      <button class="input-data__calc-btn">Посчитать</button>
+      <button class="input-data__clear-btn">Сбросить</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
