@@ -80,6 +80,7 @@ const clearForm = () => {
   growPercentInput.value = '';
   monthNumberInput.value = '';
   plusSumInput.value = '';
+  taxAmountInput.value = '';
   monthBeginAmountElements = document.querySelectorAll('.month-begin-amount');
   for (monthBeginAmountElement of monthBeginAmountElements) {
     if (main.contains(monthBeginAmountElement)) {
