@@ -24,25 +24,25 @@ let taxAmount = 0;
 
 const ownProfitTemplate = () => {
   return `<div class="own-profit">
-            <h3 class="own-profit__title">Своя прибыль: ${Math.round(ownProfit)}руб.</h3>
+            <h3 class="own-profit__title">Своя прибыль: ${Math.round(ownProfit)} руб.</h3>
           </div>`
 }
 
 const totalAmountTemplate = () => {
   return `<div class="total-amount">
-            <h3 class="total-amount__title">Общая прибыль: ${Math.round(sum)}руб.</h3>
+            <h3 class="total-amount__title">Общая прибыль: ${Math.round(sum)} руб.</h3>
           </div>`
 }
 
 const monthBeginAmountTemplate = () => {
   return `<div class="month-begin-amount">
-            <h3 class="month-begin-amount__title">Сумма для торговли на начало ${monthCount}-го месяца: ${Math.round(monthBeginAmount)}руб.</h3>
+            <h3 class="month-begin-amount__title">Сумма для торговли на начало ${monthCount}-го месяца: ${Math.round(monthBeginAmount)} руб.</h3>
           </div>`
 }
 
 const consultantProfitTemplate = () => {
   return `<div class="consultant-profit">
-            <h3 class="consultant-profit__title">Прибыль консультанта: ${Math.round(consultantProfit)}руб.</h3>
+            <h3 class="consultant-profit__title">Прибыль консультанта: ${Math.round(consultantProfit)} руб.</h3>
           </div>`
 }
 
